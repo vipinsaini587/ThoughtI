@@ -34,6 +34,8 @@ public class Item {
     
     private int order_id;
     private int item_id;
+    private int item quantity;
+    private int itemprice;
     public int getOrder_id() {
         return order_id;
     }
@@ -65,7 +67,23 @@ public class Item {
     public void setItem(Order item) {
         Item = item;
     }
+    
+    public Order getQuantity() {
+        return quantity;
+    }
 
+    public void setItem(Order Quantity) {
+        quantity= quantity;
+    }
+
+    
+    public Order getPrice() {
+        return price;
+    }
+
+    public void setItem(Order Price) {
+        price= price;
+    }
     @Override
     public String toString() {
         return "Item [Item=" + Item + ", item_id=" + item_id + ", order_id=" + order_id + ", order_name=" + order_name
