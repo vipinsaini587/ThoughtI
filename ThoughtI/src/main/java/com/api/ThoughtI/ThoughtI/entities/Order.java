@@ -11,7 +11,7 @@ import javax.persistence.OneToMany;
 import com.fasterxml.jackson.annotation.JsonManagedReference;
 
 @Entity
-
+@Table(name="orders")
 public class Order {
 
                         
